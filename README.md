@@ -262,19 +262,6 @@ Gambar 15 dan 16 memperlihatkan warna dan panjang progress bar yang berbeda sesu
 
 ---
 
-## 9. Saran Urutan Demo Video (maks. 15 menit)
-
-1. **1 menit:** tunjukkan struktur folder dan jelaskan `data.js`.
-2. **2 menit:** login salah, login benar, modal Daftar dan Lupa Password.
-3. **1 menit:** jelaskan dashboard dan greeting otomatis.
-4. **3 menit:** demo Stok (tambah, edit, hapus, cari, indikator warna).
-5. **3 menit:** demo Pemesanan sampai modal berhasil; catat nomor DO.
-6. **2 menit:** cari DO di Tracking (DO bawaan, DO baru, DO salah).
-7. **2 menit:** tunjukkan Laporan dan History, lalu jelaskan localStorage di DevTools.
-8. **1 menit:** tampilan responsif dan penutup.
-
----
-
 ### Kesimpulan
 
 Dari pengerjaan proyek UTS ini dapat disimpulkan bahwa website toko buku online BOOKSPACE berhasil dibuat sesuai ketentuan soal, menggunakan HTML, CSS, dan JavaScript murni tanpa framework, backend, atau database. Website terdiri dari tujuh halaman yang saling terhubung: Login, Dashboard, Informasi Stok/Katalog, Pemesanan, Tracking Pengiriman, Laporan Pemesanan, dan History Transaksi. Semua halaman memakai satu file CSS dengan warna dan komponen yang seragam, serta dapat menyesuaikan tampilan di laptop, tablet, dan ponsel.
