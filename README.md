@@ -10,7 +10,7 @@
 
 Proyek **UTS Pemrograman Web 1**. BOOKSPACE adalah website toko buku online bertema *Modern Colorful Bookstore Dashboard* yang dibuat dengan **HTML, CSS, dan JavaScript murni (Vanilla JS)**, tanpa framework, tanpa backend, dan tanpa database. Seluruh perubahan data disimpan di **localStorage** browser.
 
-# Link Youtube : https://youtu.be/csc6NMpXK4s
+# Link Youtube :[ https://youtu.be/csc6NMpXK4s](https://youtu.be/csc6NMpXK4s?si=ChPX37xDo75NTd-2)
 >
 ---
 
