@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Stok Buku - BOOKSPACE</title>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<div class="layout">
+  <aside class="sidebar" id="sidebar"></aside>
+  <main class="konten">
+    <header class="header"><h1>Informasi Stok / Katalog</h1><button id="btnTambah" class="btn-aksen">+ Tambah Buku</button></header>
+    <section class="kartu">
+      <div class="toolbar"><input type="text" id="cari" placeholder="Cari buku berdasarkan nama..."></div>
+      <div class="tabel-wrap"><table>
+        <thead><tr><th>Kode Barang</th><th>Nama Barang</th><th>Jenis</th><th>Edisi</th><th>Harga</th><th>Stok</th><th>Aksi</th></tr></thead>
+        <tbody id="tabelBuku"></tbody>
+      </table></div>
+    </section>
+  </main>
+</div>
+
+<div class="modal" id="modalBuku"><div class="modal-isi">
+  <h3 id="judulModal">Tambah Buku</h3><br>
+  <input type="hidden" id="fId">
+  <input id="fKode" placeholder="Kode barang (mis. EKMA4002)">
+  <input id="fNama" placeholder="Nama barang">
+  <input id="fJenis" placeholder="Jenis (mis. Buku Ajar)">
+  <input id="fEdisi" placeholder="Edisi">
+  <input type="number" id="fHarga" placeholder="Harga (Rp)" min="1">
+  <input type="number" id="fStok" placeholder="Stok" min="0">
+  <button id="btnSimpan" class="btn-sukses">Simpan</button> <button id="btnBatal" class="btn-bahaya">Batal</button>
+</div></div>
+<script src="js/data.js"></script>
+<script src="js/stok.js"></script>
+</body>
+</html>

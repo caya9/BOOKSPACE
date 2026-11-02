@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Pemesanan - BOOKSPACE</title>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<div class="layout">
+  <aside class="sidebar" id="sidebar"></aside>
+  <main class="konten">
+    <header class="header"><h1>Pemesanan Buku</h1></header>
+    <div class="checkout-grid">
+      <section>
+        <div class="toolbar">
+          <input type="text" id="cari" placeholder="Cari nama buku...">
+          <select id="filterKategori"><option value="">Semua Kategori</option></select>
+        </div>
+        <div class="produk-grid" id="daftarBuku"></div>
+      </section>
+      <aside class="kartu">
+        <h3>🛒 Keranjang</h3>
+        <div id="keranjang"></div>
+        <div class="total-box">Total: <span id="total">Rp 0</span></div>
+        <input id="nama" placeholder="Nama lengkap">
+        <input type="email" id="email" placeholder="Email">
+        <input id="telp" placeholder="Nomor telepon">
+        <textarea id="alamat" rows="2" placeholder="Alamat pengiriman"></textarea>
+        <select id="bayar"><option value="">Pilih metode pembayaran</option><option>Transfer Bank</option><option>E-Wallet</option><option>COD</option></select>
+        <button id="btnPesan" class="btn-sukses" style="width:100%">Buat Pesanan</button>
+      </aside>
+    </div>
+  </main>
+</div>
+<div class="modal" id="modalSukses"><div class="modal-isi">
+  <h3>✅ Pesanan Berhasil!</h3><br><div id="isiSukses"></div><br>
+  <button id="btnSelesai">Selesai</button> <a href="tracking.html" class="btn btn-aksen">Lacak Pesanan</a>
+</div></div>
+<script src="js/data.js"></script>
+<script src="js/checkout.js"></script>
+</body>
+</html>

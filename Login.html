@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Login - BOOKSPACE</title>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<main class="login-halaman">
+  <section class="login-kotak">
+    <div class="logo">📖 BOOK<span>SPACE</span></div>
+    <p class="sub">Masuk ke dashboard toko buku</p>
+    <!-- AKUN UJI: admin@bookspace.com / admin123 -->
+    <input type="email" id="email" placeholder="Email">
+    <div class="pass-wrap">
+      <input type="password" id="password" placeholder="Password">
+      <button type="button" id="btnLihat">Lihat</button>
+    </div>
+    <button id="btnLogin" style="width:100%">Login</button>
+    <div class="link-baris">
+      <button id="btnLupa">Lupa Password</button>
+      <button id="btnDaftar">Daftar</button>
+    </div>
+  </section>
+</main>
+
+<div class="modal" id="modalLupa"><div class="modal-isi">
+  <h3>Lupa Password</h3><p class="sub">Masukkan email untuk reset</p>
+  <input type="email" id="emailLupa" placeholder="Email terdaftar">
+  <button id="kirimLupa">Kirim</button> <button class="btn-bahaya tutup">Tutup</button>
+</div></div>
+
+<div class="modal" id="modalDaftar"><div class="modal-isi">
+  <h3>Daftar Akun</h3><br>
+  <input id="namaDaftar" placeholder="Nama lengkap">
+  <input type="email" id="emailDaftar" placeholder="Email">
+  <input type="password" id="passDaftar" placeholder="Password">
+  <button id="kirimDaftar">Daftar</button> <button class="btn-bahaya tutup">Tutup</button>
+</div></div>
+<script src="js/data.js"></script>
+<script src="js/login.js"></script>
+</body>
+</html>

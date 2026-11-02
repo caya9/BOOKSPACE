@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Dashboard - BOOKSPACE</title>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<div class="layout">
+  <aside class="sidebar" id="sidebar"></aside>
+  <main class="konten">
+    <header class="header">
+      <div><h1 id="greeting"></h1><p id="namaUser"></p></div>
+      <a href="checkout.html" class="btn btn-aksen">+ Pesanan Baru</a>
+    </header>
+    <section class="grid" id="statistik"></section>
+    <section class="dua-kolom">
+      <div class="kartu"><h3>Buku Terpopuler</h3><div id="populer"></div></div>
+      <div class="kartu"><h3>Pesanan Terbaru</h3><div id="terbaru"></div></div>
+    </section>
+  </main>
+</div>
+<script src="js/data.js"></script>
+<script src="js/dashboard.js"></script>
+</body>
+</html>
