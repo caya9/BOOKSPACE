@@ -9,6 +9,8 @@
 | **Dosen Pengampu** | Agung Nugroho, S.Kom., M.Kom. |
 
 Proyek **UTS Pemrograman Web 1**. BOOKSPACE adalah website toko buku online bertema *Modern Colorful Bookstore Dashboard* yang dibuat dengan **HTML, CSS, dan JavaScript murni (Vanilla JS)**, tanpa framework, tanpa backend, dan tanpa database. Seluruh perubahan data disimpan di **localStorage** browser.
+
+# Link Youtube : https://youtu.be/csc6NMpXK4s
 >
 ---
 
